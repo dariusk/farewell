@@ -1,0 +1,26 @@
+body {
+  margin: 30px;
+  font-family: sans-serif;
+  max-width: 500px;
+}
+h1 {
+  margin-bottom: -20px;
+}
+h2 {
+  color: rgba(0,0,0,0.5);
+}
+h3 {
+  margin-top: -20px;
+  color: rgba(0,0,0,0.5);
+}
+a {
+  color: rgba(0,0,255,0.45);
+}
+#actions {
+  height: 70px;
+}
+#actions div {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+}

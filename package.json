@@ -1,0 +1,31 @@
+{
+  "name": "farewell",
+  "description": "My last project at Bocoup.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dariusk/farewell",
+  "author": {
+    "name": "Darius Kazemi",
+    "email": "darius.kazemi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dariusk/farewell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dariusk/farewell/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dariusk/farewell/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.0"
+  },
+  "keywords": []
+}
