@@ -108,7 +108,8 @@ function generate(text) {
     'I\'ll never forget when I started here, YEARS years ago (has it been that long???) and the very first person to greet me at the door was none other than ' + first.pick() + ' ' + last.pick() + '! Can you believe it?',
     'Back when I started here YEARS years ago, we were a much smaller company and I had no idea we\'d get so big so soon.',
     'I remember I started here on Halloween YEARS years back. The whole place was decorated and everyone was dressed in costumes. I thought you were a bunch of nuts!',
-    'Bagel Friday was always special to me.'
+    'Bagel Friday was always special to me.',
+    'I remember our old office YEARS years ago. There was only one bathroom and always a line. We\'ve sure come a long way!'
   ].pick().process();
 
   var goodtimes = [
@@ -117,7 +118,8 @@ function generate(text) {
     'I\'ll cherish those memories.',
     'What a total blast.',
     'I bet they don\'t make them like you all at CORP2!',
-    'Those were the days, eh?'
+    'Those were the days, eh?',
+    'Wow.'
   ].pick().process();
 
   var stayintouch = [
@@ -147,7 +149,11 @@ function generate(text) {
     'Whoever kept taking my lunches like once a week: don\'t think you\'re off the hook. You will pay.',
     'Drinks tonight at ' + first.pick() + '\'s!',
     'When you kill the water cooler tank, you refill it. It\'s not rocket science, people.',
-    'Save me a spot at Wednesday taco buffet lunches!'
+    'Save me a spot at Wednesday taco buffet lunches!',
+    'If you ever figure out who slashed my tires&mdash;that bounty is still open.',
+    first.pick() + ' and ' + first.pick() + ': you two should just hook up. I mean really.',
+    'Don\'t sit on the couch in the break room. One time I walked in on ' + first.pick() + ' and ' + first.pick() + '&mdash;well, you probably don\'t want to know.',
+    first.pick() + ': it never would have worked out.'
   ].pick().process();
 
   var sig = [
