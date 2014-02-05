@@ -177,7 +177,7 @@ function generate(text) {
   var shareUrl = window.location.href.split('?')[0]+'?word='+sharing.encodeStr(generatedText);
   $('#share').attr('href', shareUrl);
   $('.twitter-share-button').remove();
-  $('#twitterShare').html('<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-hashtags="farewellLetter" data-url="' + shareUrl + '" data-text="' + sharedText + '" data-lang="en">Tweet</a>');
+  $('#twitterShare').html('<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="' + shareUrl + '" data-text="' + sharedText + '" data-lang="en">Tweet</a>');
   if (twttr.widgets) {
     twttr.widgets.load();
   }
@@ -201,7 +201,7 @@ function getWords(suppressGenerate, text) {
       dataType:'json'
     }),
     $.ajax({
-      url: 'http://api.lyricsnmusic.com/songs?api_key=' + key.LYRICS + '&q=' + ['anger', 'sadness', 'future', 'memories', 'love', 'youth', 'age', 'breakup', 'family'].pick() + '&callback=',
+      url: 'http://api.lyricsnmusic.com/songs?api_key=' + key.LYRICS + '&q=' + ['anger', 'sadness', 'memories', 'youth', 'age', 'breakup', 'family'].pick() + '&callback=',
       async: false,
       dataType: 'jsonp'
     })
