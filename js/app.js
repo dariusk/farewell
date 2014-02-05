@@ -170,7 +170,7 @@ function generate(text) {
     ((Math.random() < 0.3) ? (song + '<p>') : '') +
     sig + ',<br>' +
     first.pick() + ' ' + last.pick() + '<p>' +
-    ((Math.random() < 0.3) ? ('P.S. ' + ps) : '');
+    ((Math.random() < 0.7) ? ('P.S. ' + ps) : '');
 
   var sharedText = 'Farewell Letter Generator: ' + generatedText.substr(0,90).replace(/<p>/g,' ').replace(/^.+?, /,'').replace(/\s\w+$/,'') + '...';
   $('#content').html(generatedText);
