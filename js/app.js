@@ -202,7 +202,7 @@ function getWords(suppressGenerate, text) {
       dataType:'json'
     }),
     $.ajax({
-      url: 'http://api.wordnik.com//v4/words.json/randomWords?limit=1000&excludePartOfSpeech=adjective&hasDictionaryDef=true&includePartOfSpeech=verb-transitive&minCorpusCount=1000&api_key='+key.API_KEY,
+      url: 'http://api.wordnik.com/v4/words.json/randomWords?limit=1000&excludePartOfSpeech=adjective&hasDictionaryDef=true&includePartOfSpeech=verb-transitive&minCorpusCount=1000&api_key='+key.API_KEY,
       async: false,
       dataType:'json'
     }),
