@@ -168,7 +168,7 @@ function generate(text) {
   ].pick().process();
 
   // Text of the letter
-  var generatedText = text || salutation + ',<p>' +
+  var generatedText = text || '<p>' + salutation + ',</p><p>' +
     opener + ' ' + reason + '<p>' +
     enjoyment + ' ' + enjoyment2 + ' ' + miss + '<p>' +
     ((Math.random() < 0.3) ? (remember + ' ' + goodtimes + '<p>') : '') +
